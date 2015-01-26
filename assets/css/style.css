@@ -251,7 +251,8 @@ body {
 
 .wrap {
   width: 980px;
-  margin: 80px auto 40px;
+  margin: 0px auto 40px;
+  padding-top: 220px;
 }
 
 .wrap:before,
@@ -365,9 +366,11 @@ body {
 
 .google-bar {
   background: #039be5;
-  width: 980px;
+  width: 100%;
   margin: 0 0 40px 0;
   padding: 35px 30px 0 30px;
+   position: fixed;
+  z-index: 1000;
   /*-- Hamburger Icon --*/
   /*-- Google Logo --*/
   /*-- Search and Menu --*/
@@ -455,7 +458,8 @@ body {
 }
 
 .google-bar .menu {
-  float: right;
+  /* float: right; */
+  margin: 0 auto;
   width: 670px;
 }
 
